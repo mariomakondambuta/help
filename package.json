@@ -1,27 +1,10 @@
 {
   "name": "help",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mariomakondambuta/help.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mariomakondambuta/help/issues"
-  },
-  "homepage": "https://github.com/mariomakondambuta/help#readme",
+  "scripts": {},
   "dependencies": {
-    "express": "^5.1.0",
     "multer": "^2.0.2",
-    "nodemailer": "^7.0.10"
+    "resend": "^3.0.0"
   }
 }
