@@ -1,4 +1,1 @@
-const resp = await fetch("/api/enviar", {
-  method: "POST",
-  body: formData
-});
+fetch("/api/enviar", { method: "POST", body: formData });
