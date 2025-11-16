@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Envio Rápido de Documento</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/meovpbgo" 
+          method="POST" 
+          enctype="multipart/form-data">
+        
+        <h2>Anexar Documento</h2>
+        
+        <input type="file" name="documento" required><br><br>
+        
+        <input type="email" name="_replyto" placeholder="Seu Email" required><br><br>
+        
+        <button type="submit">Enviar Documento</button>
+        
+        <input type="hidden" name="_subject" value="Novo Anexo de Documento">
+    </form>
+</body>
+</html>
